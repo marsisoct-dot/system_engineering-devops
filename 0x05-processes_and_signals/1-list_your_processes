@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that generates a comprehensive hierarchical list of all active system processes.
+
+ps -auxf
