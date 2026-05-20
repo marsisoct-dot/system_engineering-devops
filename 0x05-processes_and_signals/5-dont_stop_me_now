@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# A Bash script that finds the PID of the process by its name.
+
+PID=$(pgrep -x "4-to_infinity_and_beyond")
+
+#check if the PID was found 
+if [ -n "$PID" ]; then 
+  kill "$PID"
+fi
