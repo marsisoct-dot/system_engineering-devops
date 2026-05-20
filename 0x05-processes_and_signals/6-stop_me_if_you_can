@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A bash script that finds the PID and terminates the process using pkill.
+
+pkill -f "4-to_infinity_and_beyond"
