@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Trap SIGTERM and execute the echo command instead of exiting
+
+handle_sigterm() {
+    echo "I am invincible!!!" 
+exit 0
+}
+trap handle_sigterm SIGTERM
+while true; do
+    sleep 1
+done
